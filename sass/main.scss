@@ -1,30 +1,23 @@
 //UTILS
-@import '/sass/utils/variables';
-@import '/sass/utils/visuality-hidden';
+@import './utils/variables';
+@import './utils/visuality-hidden';
 
 //BACE
-@import '/sass/base/common';
+@import './base/common';
 
 //COMPONENTS
-@import '/sass/components/container';
-@import '/sass/components/sectoin';
-@import '/sass/components/studio/topline';
-@import '/sass/components/studio/logo';
-@import '/sass/components/portfolio/filtres';
-@import '/sass/components/portfolio/project';
-@import '/sass/components/studio/hero';
-@import '/sass/components/studio/features';
-@import '/sass/components/studio/box';
-@import '/sass/components/studio/clients';
-@import '/sass/components/studio/footer';
-@import '/sass/components/studio/modal';
+@import './components/container';
+@import './components/sectoin';
+@import './components/logo';
+@import './components/modal';
+@import './components/backdrop';
+@import './components/modal-form';
 
 //LAYOUT
-@import '/sass/layout/header';
-@import '/sass/layout/hero-container';
-@import '/sass/layout/feature-list';
-@import '/sass/layout/team-list';
-@import ''
-@import
-@import
-@import
+@import './layout/header';
+@import './layout/hero-container';
+@import './layout/feature-list';
+@import './layout/team-list';
+@import './layout/clients';
+@import './layout/footer';
+@import './layout/portfolio';

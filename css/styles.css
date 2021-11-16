@@ -243,8 +243,6 @@ body {
   line-height: 1.87;
   border: 0;
 }
-.hero-container {
-}
 .header-btn {
   display: block;
   margin: 0 auto;
@@ -360,8 +358,6 @@ body {
   padding-bottom: 94px;
   padding-top: 94px;
 }
-.team-title {
-}
 .team-list {
   display: flex;
   list-style: none;
@@ -440,8 +436,6 @@ body {
 }
 .team-icon {
   transition: fill 250ms linear;
-}
-.cliet-title {
 }
 .client-list {
   display: flex;
@@ -762,9 +756,6 @@ body {
   padding-bottom: 20px;
   list-style: none;
 }
-img {
-  display: block;
-}
 .project-list {
   font-family: Roboto;
   font-style: normal;
@@ -784,8 +775,6 @@ img {
   color: #757575;
   list-style: none;
   text-decoration: none;
-}
-.project-text {
 }
 .address {
   font-family: Roboto, sans-serif;

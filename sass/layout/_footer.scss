@@ -42,6 +42,17 @@
   .footer-list {
     display: block;
   }
+  .address {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--primary-title-color);
+    text-decoration: none;
+    margin-bottom: 9px;
+    display: block;
+  }
   .contacts-mail {
     display: block;
     margin-bottom: 9px;
@@ -133,17 +144,6 @@
   .footer-social-icon {
     fill: var(--primary-title-color);
     transition: fill 250ms linear;
-  }
-  .address {
-    font-family: Roboto, sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.71;
-    color: var(--primary-title-color);
-    text-decoration: none;
-    margin-bottom: 9px;
-    display: block;
   }
   .footer-form {
     margin-left: 93px;
