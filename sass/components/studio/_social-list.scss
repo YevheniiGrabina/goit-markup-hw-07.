@@ -1,0 +1,23 @@
+.social-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  .team-social {
+    display: flex;
+    margin-top: 16px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .social-item {
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+  }
+  .social-item:last-child {
+    margin-right: 0;
+  }
+  .team-icon {
+    transition: fill 250ms linear;
+  }
