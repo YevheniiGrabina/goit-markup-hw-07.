@@ -16,7 +16,6 @@
   }
   .box-text {
     font-family: Roboto;
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
@@ -42,7 +41,6 @@
   .team-list {
     display: flex;
     list-style: none;
-    box-sizing: border-box;
   }
   .team-item {
     margin-right: 30px;
@@ -64,14 +62,12 @@
   }
   .team-name {
     font-family: Roboto, sans-serif;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     color: var(--primary-text-color);
   }
   .team-card-text {
     font-family: Roboto, sans-serif;
-    font-style: normal;
     color: var(--secondary-text-color);
     text-align: center;
     letter-spacing: 0.03em;
