@@ -106,15 +106,16 @@
     justify-content: center;
     fill: #afb1b8;
     transition: background-color 250ms linear;
-  }
-  .social-link:hover,
-  .social-link:focus {
-    background-color: var(--accent-color);
-  }
-  .social-link:hover .team-icon,
-  .social-link:focus .team-icon {
+ 
+    &:hover,
+    &:focus {
     fill: var(--primary-title-color);
+    background-color: var(--accent-color);}
   }
   .team-icon {
     transition: fill 250ms linear;
+   
+    &:hover,
+    &:focus {
+    background-color: var(--accent-color);}
   }

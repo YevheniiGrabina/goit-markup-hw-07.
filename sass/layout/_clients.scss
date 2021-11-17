@@ -20,17 +20,19 @@
     border-radius: 4px;
     fill: #afb1b8;
     transition: border-color 250ms linear;
-  }
-  .client-box:hover,
-  .client-box:focus {
-    border-color: var(--accent-color);
-  }
-  .client-box:hover .client-icon,
-  .client-box:focus .client-icon {
-    fill: var(--accent-color);
+    
+    &:hover,
+    &:focus {
+      fill: var(--accent-color);
+    border-color: var(--accent-color);}
   }
   .client-icon {
     box-sizing: border-box;
     border-radius: 4px;
     transition: fill 250ms linear;
+  
+    &:hover,
+    &:focus {
+      fill: var(--accent-color);
+    border-color: var(--accent-color);}
   }

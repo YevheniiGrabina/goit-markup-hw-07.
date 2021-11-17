@@ -64,7 +64,12 @@
     text-decoration: none;
     line-height: 1.71;
     transition: color 250ms linear;
-  }
+
+     &:hover,
+      &:focus {
+      color: var(--accent-color);}
+    }
+  
   .contacts-tel {
     display: block;
     color: var(--secondary-text-color);
@@ -75,14 +80,10 @@
     text-decoration: none;
     line-height: 1.71;
     transition: color 250ms linear;
-  }
-  .contacts-tel:hover,
-  .contacts-tel:focus {
-    color: var(--accent-color);
-  }
-  .contacts-mail:hover,
-  .contacts-mail:focus {
-    color: var(--accent-color);
+  
+    &:hover,
+    &:focus {
+    color: var(--accent-color);}
   }
   .footer-left {
     width: 231px;
@@ -129,21 +130,22 @@
     justify-content: center;
     align-items: center;
     transition: background-color 250ms linear;
+
+      &:hover,
+      &:focus {
+      fill: var(--primary-title-color);
+      background-color: var(--accent-color);}
   }
   .footer-social:last-child {
     margin-right: 0;
   }
-  .footer-social-link:hover,
-  .footer-social-link:focus {
-    background-color: var(--accent-color);
-  }
-  .footer-social-link:hover .footer-social-icon,
-  .footer-social-link:focus .footer-social-icon {
-    fill: var(--primary-title-color);
-  }
   .footer-social-icon {
     fill: var(--primary-title-color);
     transition: fill 250ms linear;
+
+    &:hover,
+      &:focus {
+      fill: var(--primary-title-color);}
   }
   .footer-form {
     margin-left: 93px;
@@ -174,10 +176,10 @@
     margin-right: 12px;
     padding-left: 16px;
     color: var(--primary-title-color);
-  }
-  .subscribe-input:hover,
-  .subscribe-input:focus {
-    background: #2f303a;
+  
+    &:hover,
+    &:focus {
+    background: #2f303a;}
   }
   .button-subscribe {
     font-weight: 700;
@@ -196,11 +198,11 @@
     border-color: transparent;
     color: var(--primary-title-color);
     transition: box-shadow 250ms linear, background-color 250ms linear;
-  }
-  .button-subscribe:focus,
-  .button-subscribe:hover {
+  
+    &:focus,
+    &:hover {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    background-color: #188ce8;
+    background-color: #188ce8;}
   }
   .sub-icon {
     position: absolute;

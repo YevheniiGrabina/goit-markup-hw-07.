@@ -29,11 +29,6 @@
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
-.backdrop.is-hidden {
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
-}
 .modal-form {
   width: 448px;
 }
